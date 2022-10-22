@@ -41,7 +41,8 @@ namespace Calculator
             double a = double.Parse(txSo1.Text);
             double b = double.Parse(txSo2.Text);
             double c = a - b;
-            txKetqua.Text = c.ToString();
+            double d = c + a;
+            txKetqua.Text = d.ToString();
         }
     }
 }
