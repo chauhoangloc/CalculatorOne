@@ -24,25 +24,47 @@ namespace Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-//            int a = int.Parse(txSo1.Text);
-//            int b = int.Parse(txSo2.Text);
-//<<<<<<< HEAD
-//            int c = a + b;
-//            txKetqua.Text = c.ToString();
-//=======
-//            int c = a + b +a;
-//            txKetqua.Text = c.ToString()    ;
-//>>>>>>> master
+            //int a = int.Parse(txSo1.Text);
+            //int b = int.Parse(txSo2.Text);
+            //int c = a + b;
+            //txKetqua.Text = c.ToString();
+            int a = int.Parse(txSo1.Text);
+            int b = int.Parse(txSo2.Text);
+            Calculation cal = new Calculation(a, b);
+            txKetqua.Text = cal.Execute("+").ToString();
+
         }
 
 
         private void button2_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(txSo1.Text);
-            double b = double.Parse(txSo2.Text);
-            double c = a - b;
-            double d = c + a;
-            txKetqua.Text = d.ToString();
+            //double a = double.Parse(txSo1.Text);
+            //double b = double.Parse(txSo2.Text);
+            //double c = a - b;
+            //double d = c + a;
+            //txKetqua.Text = d.ToString();
+            int a = int.Parse(txSo1.Text);
+            int b = int.Parse(txSo2.Text);
+            Calculation cal = new Calculation(a, b);
+            txKetqua.Text = cal.Execute("-").ToString();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txSo1.Text);
+            int b = int.Parse(txSo2.Text);
+            Calculation cal = new Calculation(a, b);
+            txKetqua.Text = cal.Execute("/").ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txSo1.Text);
+            int b = int.Parse(txSo2.Text);
+            Calculation cal = new Calculation(a, b);
+            txKetqua.Text = cal.Execute("*").ToString();
+
         }
     }
 }

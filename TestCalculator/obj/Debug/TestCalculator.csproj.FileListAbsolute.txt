@@ -1,0 +1,8 @@
+D:\Calculator\TestCalculator\bin\Debug\TestCalculator.dll
+D:\Calculator\TestCalculator\bin\Debug\TestCalculator.pdb
+D:\Calculator\TestCalculator\bin\Debug\Calculator.exe
+D:\Calculator\TestCalculator\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Calculator\TestCalculator\bin\Debug\Calculator.pdb
+D:\Calculator\TestCalculator\obj\Debug\TestCalculator.csprojResolveAssemblyReference.cache
+D:\Calculator\TestCalculator\obj\Debug\TestCalculator.dll
+D:\Calculator\TestCalculator\obj\Debug\TestCalculator.pdb
