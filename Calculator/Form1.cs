@@ -21,5 +21,13 @@ namespace Calculator
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txSo1.Text);
+            int b = int.Parse(txSo2.Text);
+            int c = a + b +a;
+            txKetqua.Text = c.ToString()    ;
+        }
     }
 }
